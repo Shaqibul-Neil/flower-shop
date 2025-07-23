@@ -27,7 +27,7 @@ body {
   margin: 0 10% 120px;
 }
 .drop-space {
-  margin-bottom: 120px;
+  margin-bottom: 140px;
 }
 
 /* ********************************************** */
@@ -102,7 +102,7 @@ nav {
 .plants {
 }
 .section_content {
-  padding: 50px 126px;
+  padding: 0 126px 50px;
   text-align: center;
 }
 .section_title {
@@ -111,6 +111,7 @@ nav {
   font-size: 50px;
   font-weight: 700;
   color: #000;
+  line-height: 68px;
 }
 .section_items {
   display: grid;
@@ -162,3 +163,38 @@ nav {
 /* ********************************************** */
 /* flower start */
 /* ********************************************** */
+.flower {
+  margin-top: 200px;
+}
+.flower_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.flower_img img {
+  display: block;
+  width: 100%;
+}
+.flower_infos ul li {
+  margin-bottom: 20px;
+}
+.flower_infos ul li:last-child {
+  margin-bottom: 0;
+}
+.flower_badge {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: spinner 6s linear infinite;
+}
+.flower_badge img {
+  width: 100%;
+}
+/* flower end */

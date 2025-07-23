@@ -54,7 +54,8 @@
     padding: 20px 20px 30px;
   }
   .section_title {
-    font-size: 35px;
+    font-size: 24px;
+    line-height: 27px;
   }
   .section_items {
     grid-template-columns: repeat(2, 1fr);
@@ -72,7 +73,26 @@
   /* ********************************************** */
   /* flower start */
   /* ********************************************** */
-
+  .flower {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .flower_content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .flower_img {
+    width: 100%;
+  }
+  .flower_badge {
+    display: none;
+  }
+  .flower_infos ul {
+    padding: 0 15px;
+  }
+  .flower_infos ul li {
+    margin-bottom: 10px;
+  }
   /* flower end */
 }
 
@@ -131,6 +151,7 @@
   .section_title {
     margin-bottom: 20px;
     font-size: 24px;
+    line-height: 27px;
   }
   .section_items {
     grid-template-columns: repeat(2, 1fr);
@@ -147,7 +168,26 @@
   /* ********************************************** */
   /* flower start */
   /* ********************************************** */
-
+  .flower {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .flower_content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .flower_img {
+    width: 100%;
+  }
+  .flower_badge {
+    display: none;
+  }
+  .flower_infos ul {
+    padding: 0 20px;
+  }
+  .flower_infos ul li {
+    margin-bottom: 10px;
+  }
   /* flower end */
 }
 
@@ -199,10 +239,11 @@
   /* plants start */
   /* ********************************************** */
   .section_content {
-    padding: 10px 50px 30px;
+    padding: 0 50px 30px;
   }
   .section_title {
     font-size: 35px;
+    line-height: 40px;
   }
   .section_items {
     margin: 0 50px;
@@ -220,14 +261,30 @@
   /* ********************************************** */
   /* flower start */
   /* ********************************************** */
-
+  .flower {
+    margin-top: 0;
+    padding-top: 50px;
+  }
+  .flower_content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .flower_img {
+    width: 100%;
+  }
+  .flower_badge {
+    display: none;
+  }
+  .flower_infos ul li {
+    margin-bottom: 10px;
+  }
   /* flower end */
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
   .container {
     margin: 0 8% 100px;
@@ -248,10 +305,11 @@
   /* plants start */
   /* ********************************************** */
   .section_content {
-    padding: 40px 110px;
+    padding: 0 110px 40px;
   }
   .section_title {
-    font-size: 45px;
+    font-size: 40px;
+    line-height: 45px;
   }
   .section_items {
     gap: 20px 15px;
@@ -267,6 +325,16 @@
   /* ********************************************** */
   /* flower start */
   /* ********************************************** */
+  .flower {
+    margin-top: 150px;
+  }
+  .flower_badge {
+    width: 175px;
+    height: 150px;
+  }
+  .flower_infos {
+    margin-left: 20px;
+  }
 
   /* flower end */
 }
@@ -278,6 +346,9 @@
   }
   .container {
     margin: 0 8% 100px;
+  }
+  .drop-space {
+    margin-bottom: 120px;
   }
   /* ********************************************** */
   /* banner start */
@@ -291,6 +362,13 @@
   /* ********************************************** */
   /* flower start */
   /* ********************************************** */
+  .flower {
+    margin-top: 170px;
+  }
+  .flower_badge {
+    width: 200px;
+    height: 200px;
+  }
 
   /* flower end */
 }
