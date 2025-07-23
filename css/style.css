@@ -102,7 +102,7 @@ nav {
 .plants {
 }
 .section_content {
-  padding: 0 126px 50px;
+  padding: 0 185px 50px;
   text-align: center;
 }
 .section_title {
@@ -165,6 +165,7 @@ nav {
 /* ********************************************** */
 .flower {
   margin-top: 200px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .flower_content {
   display: grid;
@@ -177,6 +178,9 @@ nav {
 .flower_img img {
   display: block;
   width: 100%;
+}
+.flower_infos {
+  padding: 10px 20px;
 }
 .flower_infos ul li {
   margin-bottom: 20px;
@@ -198,3 +202,94 @@ nav {
   width: 100%;
 }
 /* flower end */
+
+/* ********************************************** */
+/* Latest start */
+/* ********************************************** */
+.latest_items {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.latest_item_1 {
+  height: 200px;
+  background: url(../images/deal-bloom.png) no-repeat center;
+  border-radius: 15px;
+}
+.latest_item_3 {
+  height: 200px;
+  background: url(../images/deal-ana.png) no-repeat center;
+  border-radius: 15px;
+}
+.latest_item_2 {
+  background: url(../images/deal-zabo.png) no-repeat center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 15px;
+}
+.latest_item_1,
+.latest_item_2,
+.latest_item_3 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest_item_1 .overlay,
+.latest_item_2 .overlay,
+.latest_item_3 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.latest_title {
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-text);
+}
+.latest_title_2 {
+  position: relative;
+  z-index: 2;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-text);
+}
+.shop_btn {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 5px;
+  font-family: var(--int);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-text);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  transition: all 0.3s;
+}
+.shop_btn:hover {
+  transform: scale(1.1);
+}
+.shop_btn_2 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+/* latest end */

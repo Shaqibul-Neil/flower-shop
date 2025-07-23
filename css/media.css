@@ -76,6 +76,7 @@
   .flower {
     margin-top: 0;
     padding-top: 10px;
+    box-shadow: none;
   }
   .flower_content {
     grid-template-columns: repeat(1, 1fr);
@@ -87,6 +88,9 @@
   .flower_badge {
     display: none;
   }
+  .flower_infos {
+    padding: 0;
+  }
   .flower_infos ul {
     padding: 0 15px;
   }
@@ -94,6 +98,12 @@
     margin-bottom: 10px;
   }
   /* flower end */
+
+  /* ********************************************** */
+  /* Latest start */
+  /* ********************************************** */
+
+  /* latest end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -171,6 +181,7 @@
   .flower {
     margin-top: 0;
     padding-top: 20px;
+    box-shadow: none;
   }
   .flower_content {
     grid-template-columns: repeat(1, 1fr);
@@ -182,6 +193,9 @@
   .flower_badge {
     display: none;
   }
+  .flower_infos {
+    padding: 0;
+  }
   .flower_infos ul {
     padding: 0 20px;
   }
@@ -189,6 +203,12 @@
     margin-bottom: 10px;
   }
   /* flower end */
+
+  /* ********************************************** */
+  /* Latest start */
+  /* ********************************************** */
+
+  /* latest end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -264,6 +284,7 @@
   .flower {
     margin-top: 0;
     padding-top: 50px;
+    box-shadow: none;
   }
   .flower_content {
     grid-template-columns: repeat(1, 1fr);
@@ -275,10 +296,19 @@
   .flower_badge {
     display: none;
   }
+  .flower_infos {
+    padding: 0;
+  }
   .flower_infos ul li {
     margin-bottom: 10px;
   }
   /* flower end */
+
+  /* ********************************************** */
+  /* Latest start */
+  /* ********************************************** */
+
+  /* latest end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -327,6 +357,7 @@
   /* ********************************************** */
   .flower {
     margin-top: 150px;
+    box-shadow: none;
   }
   .flower_badge {
     width: 175px;
@@ -334,9 +365,15 @@
   }
   .flower_infos {
     margin-left: 20px;
+    padding: 0;
   }
-
   /* flower end */
+
+  /* ********************************************** */
+  /* Latest start */
+  /* ********************************************** */
+
+  /* latest end */
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -369,8 +406,13 @@
     width: 200px;
     height: 200px;
   }
-
   /* flower end */
+
+  /* ********************************************** */
+  /* Latest start */
+  /* ********************************************** */
+
+  /* latest end */
 }
 
 /*Extra Extra large devices (large desktops, 1400px and up)*/
