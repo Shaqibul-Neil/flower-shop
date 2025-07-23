@@ -1,9 +1,17 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  /* header start */
-  .container {
-    margin: 0 5%;
+  body {
+    font-size: 16px;
   }
+  .container {
+    margin: 0 5% 60px;
+  }
+  .drop-space {
+    margin-bottom: 60px;
+  }
+  /* ********************************************** */
+  /* header start */
+  /* ********************************************** */
   .logo {
     width: 90px;
   }
@@ -17,14 +25,47 @@
     display: block;
   }
   /* header end */
+
+  /* ********************************************** */
+  /* banner start */
+  /* ********************************************** */
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-top: 20px;
+    width: 100%;
+    order: 2;
+  }
+  .banner-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .banner-img {
+    order: 1;
+    width: 100%;
+  }
+  /* banner end */
+
+  /* ********************************************** */
+  /* plants start */
+  /* ********************************************** */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* header start */
-  .container {
-    margin: 0 5%;
+  body {
+    font-size: 16px;
   }
+  .container {
+    margin: 0 5% 60px;
+  }
+  .drop-space {
+    margin-bottom: 60px;
+  }
+  /* ********************************************** */
+  /* header start */
+  /* ********************************************** */
   .logo {
     width: 90px;
   }
@@ -35,14 +76,47 @@
     display: block;
   }
   /* header end */
+
+  /* ********************************************** */
+  /* banner start */
+  /* ********************************************** */
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-top: 20px;
+    width: 100%;
+    order: 2;
+  }
+  .banner-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .banner-img {
+    order: 1;
+    width: 100%;
+  }
+  /* banner end */
+
+  /* ********************************************** */
+  /* plants start */
+  /* ********************************************** */
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* header start */
-  .container {
-    margin: 0 5%;
+  body {
+    font-size: 16px;
   }
+  .container {
+    margin: 0 5% 80px;
+  }
+  .drop-space {
+    margin-bottom: 80px;
+  }
+  /* ********************************************** */
+  /* header start */
+  /* ********************************************** */
   .logo {
     width: 90px;
   }
@@ -50,16 +124,86 @@
     gap: 30px;
   }
   /* header end */
+
+  /* ********************************************** */
+  /* banner start */
+  /* ********************************************** */
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-top: 20px;
+    width: 100%;
+    order: 2;
+  }
+
+  .banner-title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .banner-img {
+    order: 1;
+    width: 100%;
+  }
+  /* banner end */
+
+  /* ********************************************** */
+  /* plants start */
+  /* ********************************************** */
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    margin: 0 8% 100px;
+  }
+  .drop-space {
+    margin-bottom: 100px;
+  }
+  /* ********************************************** */
+  /* banner start */
+  /* ********************************************** */
+  .banner-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  /* banner end */
+
+  /* ********************************************** */
+  /* plants start */
+  /* ********************************************** */
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    margin: 0 8% 100px;
+  }
+  .drop-space {
+    margin-bottom: 100px;
+  }
+  /* ********************************************** */
+  /* banner start */
+  /* ********************************************** */
+  .banner-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  /* banner end */
+
+  /* ********************************************** */
+  /* plants start */
+  /* ********************************************** */
 }
 
 /*Extra Extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+  /* ********************************************** */
+  /* ********************************************** */
 }

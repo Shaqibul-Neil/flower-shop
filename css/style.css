@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(233, 90, 8);
+  --primary-color: #e95a08;
   --primary-text: rgb(0, 0, 0, 0.5);
   --secondary-text: rgba(255, 255, 255);
   --primary-bg: rgb(245, 248, 255);
@@ -7,24 +7,32 @@
   --noto: "Noto Serif", serif;
   --int: "Inter", sans-serif;
 }
+/* ********************************************** */
 /*common css*/
+/* ********************************************** */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: var(--int);
   font-size: 22px;
   font-weight: 400;
   color: var(--primary-text);
+  line-height: 27px;
   background-color: var(--primary-bg);
 }
 .container {
-  margin: 0 10%;
+  margin: 0 10% 120px;
 }
+.drop-space {
+  margin-bottom: 120px;
+}
+
+/* ********************************************** */
 /* header start */
+/* ********************************************** */
 .header {
   padding: 20px 0;
 }
@@ -55,3 +63,39 @@ nav {
   color: #252432;
 }
 /* header end */
+
+/* ********************************************** */
+/* banner start */
+/* ********************************************** */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-text {
+}
+.banner-title {
+  margin-bottom: 15px;
+  font-family: var(--noto);
+  font-size: 65px;
+  font-weight: 700;
+  color: #000;
+  line-height: 89px;
+}
+.highlight {
+  color: var(--primary-color);
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+}
+/* banner end */
+
+/* ********************************************** */
+/* plants start */
+/* ********************************************** */
