@@ -361,12 +361,14 @@
   }
   .flower_badge {
     width: 175px;
-    height: 150px;
+    height: 175px;
+    top: 4%;
   }
   .flower_infos {
     margin-left: 20px;
     padding: 0;
   }
+
   /* flower end */
 
   /* ********************************************** */
