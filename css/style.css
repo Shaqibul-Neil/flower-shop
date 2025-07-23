@@ -1,0 +1,22 @@
+:root {
+  --primary-color: rgb(233, 90, 8);
+  --primary-text: rgb(0, 0, 0, 0.5);
+  --secondary-text: rgba(255, 255, 255);
+  --primary-bg: rgb(245, 248, 255);
+  --secondary-bg: rgb(249, 251, 254);
+  --noto: "Noto Serif", serif;
+  --int: "Inter", sans-serif;
+}
+/*common css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--int);
+  font-size: 22px;
+  font-weight: 400;
+  background-color: var(--primary-bg);
+}
