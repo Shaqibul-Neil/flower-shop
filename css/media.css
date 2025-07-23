@@ -50,6 +50,30 @@
   /* ********************************************** */
   /* plants start */
   /* ********************************************** */
+  .section_content {
+    padding: 20px 20px 30px;
+  }
+  .section_title {
+    font-size: 35px;
+  }
+  .section_items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .item_details {
+    margin: 4px 0;
+  }
+  .btn {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  /* plants end */
+
+  /* ********************************************** */
+  /* flower start */
+  /* ********************************************** */
+
+  /* flower end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -61,7 +85,7 @@
     margin: 0 5% 60px;
   }
   .drop-space {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
   /* ********************************************** */
   /* header start */
@@ -101,6 +125,30 @@
   /* ********************************************** */
   /* plants start */
   /* ********************************************** */
+  .section_content {
+    padding: 10px 50px 30px;
+  }
+  .section_title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .section_items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .item_details {
+    margin: 8px 0;
+  }
+  .btn {
+    padding: 15px 0;
+  }
+  /* plants end */
+
+  /* ********************************************** */
+  /* flower start */
+  /* ********************************************** */
+
+  /* flower end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -150,6 +198,30 @@
   /* ********************************************** */
   /* plants start */
   /* ********************************************** */
+  .section_content {
+    padding: 10px 50px 30px;
+  }
+  .section_title {
+    font-size: 35px;
+  }
+  .section_items {
+    margin: 0 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .item_details {
+    margin: 8px 0;
+  }
+  .btn {
+    padding: 15px 0;
+  }
+  /* plants end */
+
+  /* ********************************************** */
+  /* flower start */
+  /* ********************************************** */
+
+  /* flower end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -175,6 +247,28 @@
   /* ********************************************** */
   /* plants start */
   /* ********************************************** */
+  .section_content {
+    padding: 40px 110px;
+  }
+  .section_title {
+    font-size: 45px;
+  }
+  .section_items {
+    gap: 20px 15px;
+  }
+  .item_details {
+    margin: 8px 0;
+  }
+  .btn {
+    padding: 15px 0;
+  }
+  /* plants end */
+
+  /* ********************************************** */
+  /* flower start */
+  /* ********************************************** */
+
+  /* flower end */
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -184,9 +278,6 @@
   }
   .container {
     margin: 0 8% 100px;
-  }
-  .drop-space {
-    margin-bottom: 100px;
   }
   /* ********************************************** */
   /* banner start */
@@ -198,8 +289,10 @@
   /* banner end */
 
   /* ********************************************** */
-  /* plants start */
+  /* flower start */
   /* ********************************************** */
+
+  /* flower end */
 }
 
 /*Extra Extra large devices (large desktops, 1400px and up)*/
