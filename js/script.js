@@ -5,11 +5,17 @@ const cartAmount = document.querySelector("#cart_amount");
 //cart button alert and cart amount update
 cartButtons.forEach((cartButton) => {
   cartButton.addEventListener("click", function () {
-    alert("Flower Added to Cart");
+    //getting the value of the product
     const itemPrice = parseFloat(
-      cartButton.closest(".item").querySelector(".item_details p").textContent
+      this.closest(".item").querySelector(".item_details p").textContent
     );
 
-    cartAmount.textContent = +cartAmount.textContent + itemPrice;
+    //updating the cart amount
+    cartAmount.textContent = (+cartAmount.textContent + itemPrice).toFixed(2);
+
+    //update cart alert
+    alert(
+      `💐 Flower Added to Cart. New Cart Value: $${cartAmount.textContent}`
+    );
   });
 });

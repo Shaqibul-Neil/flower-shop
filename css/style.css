@@ -3,8 +3,9 @@
 /* ********************************************** */
 :root {
   --primary-color: #e95a08;
+  --link-hover: #252432;
   --primary-text: rgb(0, 0, 0, 0.5);
-  --secondary-text: rgba(255, 255, 255);
+  --secondary-text: #ffffff;
   --primary-bg: rgb(245, 248, 255);
   --secondary-bg: rgb(249, 251, 254);
   --noto: "Noto Serif", serif;
@@ -59,12 +60,27 @@ nav {
 .links ul li a {
   font-size: 16px;
   font-weight: 600;
+  position: relative;
+  padding-bottom: 5px;
   color: var(--primary-text);
   text-decoration: none;
   transition: all 0.3s;
 }
 .links ul li a:hover {
-  color: #252432;
+  color: var(--link-hover);
+}
+.links ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--link-hover);
+  transition: width 0.3s ease;
+}
+.links ul li a:hover::after {
+  width: 100%;
 }
 /* header end */
 
@@ -327,6 +343,7 @@ nav {
   font-family: var(--int);
   font-size: 16px;
   font-weight: 400;
+  border: 2px solid transparent;
   color: var(--primary-text);
 }
 .btn_input {
@@ -348,7 +365,8 @@ nav {
   background-color: var(--secondary-text);
   border: 2px solid var(--primary-color);
 }
-input:focus {
+.email_input:focus {
+  border: 2px solid var(--primary-color);
   outline: none;
 }
 /* contact end */
@@ -375,7 +393,7 @@ footer {
 }
 .footer_links a {
   display: block;
-  padding: 7px 0;
+  padding: 15px 0 0;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -384,9 +402,10 @@ footer {
   transition: all 0.3s;
 }
 .footer_links ul li a:hover {
-  color: #252432;
+  color: var(--link-hover);
 }
 .footer_social ul {
+  padding-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
