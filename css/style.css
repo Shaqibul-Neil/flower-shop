@@ -78,7 +78,7 @@ nav {
 .banner-text {
 }
 .banner-title {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-family: var(--noto);
   font-size: 65px;
   font-weight: 700;
@@ -339,3 +339,44 @@ input:focus {
   outline: none;
 }
 /* contact end */
+
+/* ********************************************** */
+/* footer bottom start */
+/* ********************************************** */
+.footer_bottom {
+  margin: 0 10%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr;
+  align-items: start;
+  gap: 80px;
+}
+.footer_bottom ul li {
+  list-style: none;
+}
+.footer_links a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-text);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.footer_links ul li a:hover {
+  color: #252432;
+}
+.footer_social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer_social ul li a img {
+  transition: all 0.3s;
+}
+.footer_social ul li a img:hover {
+  transform: scale(1.1);
+}
+/* footer bottom end */
