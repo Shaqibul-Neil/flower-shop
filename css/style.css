@@ -1,3 +1,6 @@
+/* ********************************************** */
+/* Global CSS */
+/* ********************************************** */
 :root {
   --primary-color: #e95a08;
   --primary-text: rgb(0, 0, 0, 0.5);
@@ -7,6 +10,7 @@
   --noto: "Noto Serif", serif;
   --int: "Inter", sans-serif;
 }
+
 /* ********************************************** */
 /*common css*/
 /* ********************************************** */
@@ -75,8 +79,7 @@ nav {
 .banner-content {
   width: 50%;
 }
-.banner-text {
-}
+
 .banner-title {
   margin-bottom: 25px;
   font-family: var(--noto);
@@ -99,8 +102,7 @@ nav {
 /* ********************************************** */
 /* plants start */
 /* ********************************************** */
-.plants {
-}
+
 .section_content {
   padding: 0 185px 50px;
   text-align: center;
@@ -121,12 +123,8 @@ nav {
 .item {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.item_img {
-}
 .item_img img {
   width: 100%;
-}
-.item_content {
 }
 .item_details {
   margin: 15px 0;
@@ -153,7 +151,8 @@ nav {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   transition: all 0.5s;
 }
-.btn:hover {
+.btn:hover,
+.btn:active {
   color: var(--primary-color);
   background-color: var(--secondary-text);
   border: 2px solid var(--primary-color);
@@ -174,7 +173,6 @@ nav {
   gap: 60px;
   position: relative;
 }
-
 .flower_img img {
   display: block;
   width: 100%;
@@ -333,8 +331,22 @@ nav {
 }
 .btn_input {
   width: 188px;
+  padding: 20px 0;
+  font-family: var(--int);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--secondary-text);
   box-shadow: none;
   text-transform: capitalize;
+  background-color: var(--primary-color);
+  border: 2px solid transparent;
+  transition: all 0.5s;
+}
+.btn_input:hover,
+.btn_input:active {
+  color: var(--primary-color);
+  background-color: var(--secondary-text);
+  border: 2px solid var(--primary-color);
 }
 input:focus {
   outline: none;
@@ -344,6 +356,9 @@ input:focus {
 /* ********************************************** */
 /* footer bottom start */
 /* ********************************************** */
+footer {
+  background-color: var(--secondary-bg);
+}
 .footer_bottom {
   margin: 0 10%;
   padding: 65px 0 50px;
@@ -384,3 +399,5 @@ input:focus {
   transform: scale(1.1);
 }
 /* footer bottom end */
+/* ********************************************** */
+/* ********************************************** */
