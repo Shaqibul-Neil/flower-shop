@@ -13,6 +13,9 @@
   /* ********************************************** */
   /* header start */
   /* ********************************************** */
+  .header {
+    height: 90px;
+  }
   .logo {
     width: 100px;
   }
@@ -29,7 +32,9 @@
     display: block;
   }
   /* header end */
-
+  main {
+    padding-top: 60px;
+  }
   /* ********************************************** */
   /* banner start */
   /* ********************************************** */
@@ -114,7 +119,15 @@
     height: auto;
     gap: 15px;
   }
-
+  .latest_item_1 {
+    order: 1;
+  }
+  .latest_item_2 {
+    order: 3;
+  }
+  .latest_item_3 {
+    order: 2;
+  }
   .latest_item_2 {
     grid-column: auto;
     grid-row: auto;
@@ -190,6 +203,9 @@
   /* ********************************************** */
   /* header start */
   /* ********************************************** */
+  .header {
+    height: 90px;
+  }
   .logo {
     width: 120px;
   }
@@ -203,7 +219,9 @@
     display: block;
   }
   /* header end */
-
+  main {
+    padding-top: 70px;
+  }
   /* ********************************************** */
   /* banner start */
   /* ********************************************** */
@@ -288,8 +306,15 @@
     height: auto;
     gap: 15px;
   }
+  .latest_item_1 {
+    order: 1;
+  }
 
+  .latest_item_3 {
+    order: 2;
+  }
   .latest_item_2 {
+    order: 3;
     grid-column: auto;
     grid-row: auto;
     height: 250px;
@@ -363,6 +388,9 @@
   /* ********************************************** */
   /* header start */
   /* ********************************************** */
+  .header {
+    height: 90px;
+  }
   .logo {
     width: 120px;
   }
@@ -452,8 +480,15 @@
     grid-template-columns: 1fr;
     height: auto;
   }
+  .latest_item_1 {
+    order: 1;
+  }
 
+  .latest_item_3 {
+    order: 2;
+  }
   .latest_item_2 {
+    order: 3;
     grid-column: auto;
     grid-row: auto;
     height: 250px;
@@ -523,6 +558,15 @@
   .drop-space {
     margin-bottom: 100px;
   }
+
+  /* ********************************************** */
+  /* header start */
+  /* ********************************************** */
+  .header {
+    height: 95px;
+  }
+  /* header end */
+
   /* ********************************************** */
   /* banner start */
   /* ********************************************** */

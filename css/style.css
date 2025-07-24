@@ -34,12 +34,21 @@ body {
 .drop-space {
   margin-bottom: 140px;
 }
-
+a,
+button,
+.btn_input {
+  cursor: pointer;
+}
 /* ********************************************** */
 /* header start */
 /* ********************************************** */
 .header {
-  padding: 20px 0;
+  padding: 5px 0;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--primary-bg);
 }
 nav {
   display: flex;
@@ -83,7 +92,9 @@ nav {
   width: 100%;
 }
 /* header end */
-
+main {
+  padding-top: 120px;
+}
 /* ********************************************** */
 /* banner start */
 /* ********************************************** */
@@ -142,6 +153,7 @@ nav {
 .item_img img {
   width: 100%;
 }
+
 .item_details {
   margin: 15px 0;
   text-align: center;
