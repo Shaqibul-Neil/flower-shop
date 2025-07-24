@@ -334,6 +334,7 @@ nav {
 .btn_input {
   width: 188px;
   box-shadow: none;
+  text-transform: capitalize;
 }
 input:focus {
   outline: none;
