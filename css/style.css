@@ -346,18 +346,21 @@ input:focus {
 /* ********************************************** */
 .footer_bottom {
   margin: 0 10%;
-  padding: 50px 0;
+  padding: 65px 0 50px;
   display: grid;
   grid-template-columns: 2fr 1.5fr 1.5fr 1fr;
   align-items: start;
   gap: 80px;
+}
+.footer_logo p {
+  margin-top: 15px;
 }
 .footer_bottom ul li {
   list-style: none;
 }
 .footer_links a {
   display: block;
-  padding: 5px 0;
+  padding: 7px 0;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
